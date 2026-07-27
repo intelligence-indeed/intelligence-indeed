@@ -2,7 +2,7 @@
 
 Intelligence Indeed (tars as short name in code) is a multi-agent computer-use system for desktop GUI automation. It separates feasibility probing, planning, and execution across a Gate, a Planner, and an Executor, and combines dynamic and static skills to improve cross-agent coordination on open-ended desktop tasks.
 
-This repository is a snapshot of [OSWorld](https://github.com/xlang-ai/OSWorld) with the Intelligence Indeed agent integrated for official evaluation ([PR #542](https://github.com/xlang-ai/OSWorld/pull/542)).
+This repository is a snapshot of [OSWorld](https://github.com/xlang-ai/OSWorld) with the Intelligence Indeed agent integrated for official evaluation.
 
 ## Technical report
 
