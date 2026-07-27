@@ -1,10 +1,6 @@
 # Intelligence Indeed
 
-Intelligence Indeed (tars as short name in code) is a multi-agent computer-use system for desktop GUI automation. It separates feasibility probing, planning, and execution across a Gate, a Planner, and an Executor, so each role can focus on a different stage of solving an open-ended desktop task.
-
-In multi-agent computer-use settings, two issues often limit reliability. First, early probing may uncover useful environment state, constraints, or promising action paths, but that information is not always shared systematically with later planning and execution. Second, agents are commonly given long, general-purpose prompts that mix rules from many application domains. Irrelevant or conflicting guidance can dilute useful constraints, while long system prompts also add avoidable context cost.
-
-Intelligence Indeed addresses these issues with a combined **dynamic** and **static** skill design. Dynamic skills carry task-specific findings from live probing into downstream agents. Static skills selectively attach reusable domain guidance for the applications involved in the current task. Together, they improve cross-agent coordination, keep operational preferences more consistent across scenes, and avoid packing every domain rule into every prompt.
+Intelligence Indeed (tars as short name in code) is a multi-agent computer-use system for desktop GUI automation. It is a hybrid agent framework that blends static and dynamic skills. Static skills provide system prompts and general references through progressive disclosure, while dynamic skills are generated in real time by a task feasibility probing module. Both jointly guide execution throughout the entire workflow, preserving information independence while unifying execution experience across the full pipeline.
 
 ## Skill system
 
