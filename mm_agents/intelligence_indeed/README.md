@@ -2,18 +2,6 @@
 
 Intelligence Indeed (tars as short name in code) is a multi-agent computer-use system for desktop GUI automation. It is a hybrid agent framework that blends static and dynamic skills. Static skills provide system prompts and general references through progressive disclosure, while dynamic skills are generated in real time by a task feasibility probing module. Both jointly guide execution throughout the entire workflow, preserving information independence while unifying execution experience across the full pipeline.
 
-## Skill system
-
-### Dynamic skills
-
-During the feasibility stage, the Gate probes the live environment and summarizes task-relevant findings as a dynamic skill. This gives the Planner and Executor fresh, instance-specific context without permanently encoding transient observations into the static skill library.
-
-### Static skills
-
-Static skills provide reusable, task-agnostic operating guidance for application domains. For each task, the Gate selects relevant skills from a compact index and attaches only those domains to later agents. In this way, static skills can shape behavioral preferences in the involved scenes while reducing cross-domain constraint clutter and the extra token cost of oversized system prompts.
-
-Dynamic skills emphasize *what matters for this task instance*; static skills emphasize *how the relevant applications should generally be operated*. A full technical report with method details is coming soon.
-
 ## Setup
 
 1. **Setup environment**
