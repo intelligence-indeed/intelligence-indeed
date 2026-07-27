@@ -1,6 +1,6 @@
 # Intelligence Indeed
 
-Intelligence Indeed (tars as short name in code) is a multi-agent computer-use system for desktop GUI automation. It separates feasibility probing, planning, and execution across a Gate, a Planner, and an Executor, and combines dynamic and static skills to improve cross-agent coordination on open-ended desktop tasks.
+Intelligence Indeed (tars as short name in code) is a multi-agent computer-use system for desktop GUI automation. It is a hybrid agent framework that blends static and dynamic skills. Static skills provide system prompts and general references through progressive disclosure, while dynamic skills are generated in real time by a task feasibility probing module. Both jointly guide execution throughout the entire workflow, preserving information independence while unifying execution experience across the full pipeline.
 
 This repository is a snapshot of [OSWorld](https://github.com/xlang-ai/OSWorld) with the Intelligence Indeed agent integrated for official evaluation.
 
